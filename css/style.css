@@ -48,6 +48,7 @@ img{
     }
     figure>img{
         border-radius: 100%;
+        border-color: black;
     }
     figure:last-child {
         grid-column: 1 / span 2;
@@ -74,7 +75,7 @@ img{
 
 @media (prefers-color-scheme: dark){
     body{
-        background-color: #1b1b1b;
+        background-color: #434343;
         color: #fffff1;
     }
 }
